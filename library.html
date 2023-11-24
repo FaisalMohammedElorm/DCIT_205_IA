@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computer Science Lab</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 70px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 75px;
+        z-index: 10;
+      }
+      .compicon {
+        height: 70px;
+        width: 400px;
+      }
+
+      .ugicons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+
+      .navibar {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .navtools {
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        margin-right: 10px;
+
+        border: none;
+      }
+      .navtools:hover {
+        color: rgb(1, 1, 2);
+        background-color: rgb(246, 246, 246);
+        border-radius: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: rgba(2, 88, 79, 0.522);
+      }
+      section {
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 2em;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        border-bottom: 1px solid #ccc;
+        padding: 1em 0;
+      }
+
+      h2 {
+        color: #333;
+      }
+
+      p {
+        color: #666;
+      }
+
+      @media (max-width: 600px) {
+        section {
+          padding: 1em;
+        }
+      }
+
+      img {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="ugicons">
+        <h1 style="color: rgba(2, 88, 79, 0.522)">COMPSSA UG</h1>
+      </div>
+      <div class="navibar">
+        <button class="navtools"><a href="home.html">HOME</a></button>
+        <button class="navtools"><a href="about.html">ABOUT </a></button>
+        <button class="navtools"><a href="signup.html">SIGN_UP</a></button>
+        <button class="navtools"><a href="contact.html">CONTACT</a></button>
+        <button class="navtools"><a href="library.html">LIBRARY</a></button>
+      </div>
+      <div></div>
+    </div>
+    <div class="img1_des"></div>
+
+    <section>
+      <ul>
+        <li>
+          <!-- List Of Books -->
+          <h2>The Language Of Languages</h2>
+          <p>Author: Mohammed Faisal</p>
+          <p>
+            Description: This book highlights the hardware components of the
+            computer system.
+          </p>
+          <img src="Book1.jpg" alt="" />
+        </li>
+        <li>
+          <h2>The Computer Science Book</h2>
+          <p>Author: Tom Johnson</p>
+          <p>Description: A complete introduction to Computer Science.</p>
+          <img src="Book2.jpg" alt="" />
+        </li>
+        <li>
+          <h2>C++</h2>
+          <p>Author: Boafo Samuel</p>
+          <p>Description: A guide to C++</p>
+          <img src="Book3.jpg" alt="" />
+        </li>
+        <li>
+          <h2>The Computer Science Dictionary</h2>
+          <p>Author: Goku Surprise</p>
+          <p>Description: Defines concepts in computer science.</p>
+          <img src="Book4.jpg" alt="" />
+        </li>
+        <li>
+          <h2>Python</h2>
+          <p>Author: Nikola Tesla</p>
+          <p>Description: Introduction to Python.</p>
+          <img src="Book5.jpg" alt="" />
+        </li>
+        <li>
+          <h2>The Computer System Architecture</h2>
+          <p>Author: Thomas Alva Edison</p>
+          <p>
+            Description: Describes the complete Architecture of the computer
+            system.
+          </p>
+          <img src="Book6.jpg" alt="" />
+        </li>
+      </ul>
+    </section>
+    <footer
+      style="
+        background-color: #0a0404;
+        padding: 20px;
+        color: #ffffff;
+        text-align: center;
+      "
+    >
+      <div style="display: flex; justify-content: space-around">
+        <div style="flex: 1; text-align: left">
+          <h4 style="margin-bottom: 10px">Contact Us</h4>
+          <p style="color: #ffffff">Email: info@yourcomputersciencesite.com</p>
+          <p style="color: #ffffff">Phone: (123) 456-7890</p>
+        </div>
+
+        <div style="flex: 1; text-align: left">
+          <h4 style="margin-bottom: 10px">Quick Links</h4>
+          <ul style="list-style: none; padding: 0; margin: 0">
+            <li>
+              <a href="home.html" style="text-decoration: none; color: #fefdfd"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#" style="text-decoration: none; color: #fdf8f8"
+                >Library</a
+              >
+            </li>
+            <li>
+              <a
+                href="signup.html"
+                style="text-decoration: none; color: rgb(255, 255, 255) fff"
+                >sign up</a
+              >
+            </li>
+            <li>
+              <a href="About.html" style="text-decoration: none; color: #ffffff"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="#" style="text-decoration: none; color: #fffefe"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div style="flex: 1; text-align: left">
+          <h4 style="margin-bottom: 10px">Follow Us</h4>
+          <a
+            href="#"
+            style="text-decoration: none; color: #ffffff; margin-right: 10px"
+            >Facebook</a
+          >
+          <a
+            href="#"
+            style="text-decoration: none; color: #ffffff; margin-right: 10px"
+            >Twitter</a
+          >
+          <a
+            href="https://www.linkedin.com/company/university-of-ghana"
+            style="text-decoration: none; color: #ffffff"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+
+      <div style="margin-top: 20px">
+        <p style="color: #ffffff">
+          &copy; 2023 Your Computer Science Site. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
