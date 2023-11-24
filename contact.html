@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -250,3 +251,257 @@
     </footer>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign_in</title>
+    <style>
+      body {
+        padding-top: 75px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 70px;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 75px;
+        z-index: 10;
+      }
+      .compicon {
+        height: 70px;
+        width: 400px;
+      }
+
+      .ugicons {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+
+      .navibar {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .navtools {
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        margin-right: 10px;
+
+        border: none;
+      }
+      .navtools:hover {
+        color: rgb(1, 1, 2);
+        background-color: rgb(246, 246, 246);
+        border-radius: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: rgba(2, 88, 79, 0.522);
+      }
+      section {
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 2em;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      form {
+        display: grid;
+        gap: 20px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        transition: 0.3s;
+      }
+
+      input:focus,
+      textarea:focus {
+        border-color: #4caf50;
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+      }
+
+      button {
+        background-color: #cfdfd0;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      @media (max-width: 600px) {
+        section {
+          padding: 1em;
+        }
+      }
+      .mark {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="ugicons">
+        <h1 style="color: rgba(2, 88, 79, 0.522)">COMPSSA UG</h1>
+      </div>
+      <div class="navibar">
+        <button class="navtools"><a href="home.html">HOME</a></button>
+        <button class="navtools"><a href="about.html">ABOUT </a></button>
+        <button class="navtools"><a href="signup.html">SIGNUP</a></button>
+        <button class="navtools"><a href="contact.html">CONTACT</a></button>
+        <button class="navtools"><a href="library.html">LIBRARY</a></button>
+      </div>
+      <div></div>
+    </div>
+    <div class="img1_des">
+      <div>
+        <img
+          class="img4"
+          width="1350px"
+          height="500px"
+          src="Banners-07.png"
+          alt=""
+        />
+        <div class="mark">
+          <div>
+            <h1>MARK MENSAH ATTA</h1>
+            <p>He teaches Office productivity tools</p>
+            <img width="300px" src="Mark Atta Mensah.jpg" alt="" />
+          </div>
+          <div>
+            <h1>MR. MICHEAL SOLI</h1>
+            <p>The best lecturer in programming</p>
+            <img width="300px" src="Soli.jpg" alt="" />
+          </div>
+          <div>
+            <h1>MR. AZIZ DWUMFOUR</h1>
+            <p>The best lecturer in Hardware</p>
+            <img width="300px" src="Aziz.jpg" alt="" />
+          </div>
+        </div>
+        <section>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </section>
+      </div>
+    </div>
+    <footer
+      style="
+        background-color: #0a0404;
+        padding: 20px;
+        color: #ffffff;
+        text-align: center;
+      "
+    >
+      <div style="display: flex; justify-content: space-around">
+        <div style="flex: 1; text-align: left">
+          <h4 style="margin-bottom: 10px">Contact Us</h4>
+          <p style="color: #ffffff">Email: info@yourcomputersciencesite.com</p>
+          <p style="color: #ffffff">Phone: (123) 456-7890</p>
+        </div>
+
+        <div style="flex: 1; text-align: left">
+          <h4 style="margin-bottom: 10px">Quick Links</h4>
+          <ul style="list-style: none; padding: 0; margin: 0">
+            <li>
+              <a href="home.html" style="text-decoration: none; color: #fefdfd"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="#" style="text-decoration: none; color: #fdf8f8"
+                >Library</a
+              >
+            </li>
+            <li>
+              <a
+                href="signup.html"
+                style="text-decoration: none; color: rgb(255, 255, 255) fff"
+                >sign up</a
+              >
+            </li>
+            <li>
+              <a href="About.html" style="text-decoration: none; color: #ffffff"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="#" style="text-decoration: none; color: #fffefe"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div style="flex: 1; text-align: left">
+          <h4 style="margin-bottom: 10px">Follow Us</h4>
+          <a
+            href="#"
+            style="text-decoration: none; color: #ffffff; margin-right: 10px"
+            >Facebook</a
+          >
+          <a
+            href="#"
+            style="text-decoration: none; color: #ffffff; margin-right: 10px"
+            >Twitter</a
+          >
+          <a
+            href="https://www.linkedin.com/company/university-of-ghana"
+            style="text-decoration: none; color: #ffffff"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+
+      <div style="margin-top: 20px">
+        <p style="color: #ffffff">
+          &copy; 2023 Your Computer Science Site. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+>>>>>>> cec56787970e780dd7425e6201fd7ca03fcbf267
